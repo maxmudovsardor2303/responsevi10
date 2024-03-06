@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  display: flex;
+  padding: 45px 170px;
+  gap: 30px;
+}
+header img {
+  width: 65%;
+  height: 60vh;
+}
+header .header-box {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .header-box h1 {
+  font-family: Tenor Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+}
+header .header-box p {
+  color: rgb(102, 102, 102);
+}
+header .header-box strong {
+  font-size: 13px;
+}
+
+@media (max-width: 448px) {
+  header {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+  }
+  header img {
+    height: 50vh;
+  }
+  header .header-box {
+    gap: 10px;
+  }
+  header .header-box h1 {
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 449px) and (max-width: 768px) {
+  header {
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 15px;
+  }
+  header img {
+    height: 60vh;
+  }
+  header .header-box {
+    gap: 15px;
+  }
+  header .header-box h1 {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  header {
+    padding-left: 130px;
+    padding-right: 130px;
+    gap: 25px;
+  }
+  header img {
+    height: 50vh;
+  }
+  header .header-box {
+    gap: 20px;
+  }
+  header .header-box h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}/*# sourceMappingURL=header.css.map */

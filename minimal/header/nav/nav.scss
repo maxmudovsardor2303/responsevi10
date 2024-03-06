@@ -1,0 +1,52 @@
+nav{
+    width: 100%;
+    padding: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    strong{
+        font-size: 30px;
+    }
+    li{
+        display: flex;
+        gap: 30px;
+        a{
+            color: #000;
+        }
+        
+    }
+
+}
+@media (max-width: 448px) {
+    nav{
+       padding: 15px 30px;
+       strong{
+        font-size: 15px;
+       }
+       a{
+        font-size: 10px;
+       }
+       li{
+        gap: 10px;
+       }
+    }
+}
+@media (min-width: 449px)  and ( max-width: 768px){
+    nav{
+       padding: 20px  80px;
+       strong{
+        font-size: 20px;
+       }
+       
+       li{
+        gap: 20px;
+       }
+    }
+}
+@media (min-width: 769px)  and ( max-width: 1200px){
+    nav{
+        padding-left: 130px;
+        padding-right: 130px;
+       
+    }
+}
